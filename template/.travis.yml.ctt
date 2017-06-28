@@ -1,0 +1,11 @@
+#
+# This file is part of the {{namespace}} npm package. Copyright (C) {{year}} and above {{author}} <{{authorEmail}}>.
+# Licensed under the MIT license, which can be found at http://www.opensource.org/licenses/mit-license.php.
+#
+
+language: node_js
+script: yarn run ci
+node_js:
+  - 8
+notifications:
+  email: false

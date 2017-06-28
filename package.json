@@ -1,0 +1,35 @@
+{
+  "name": "@cowtech/create-npm-package",
+  "version": "0.0.0",
+  "description": "CowTech Template: NPM package",
+  "main": "index.js",
+  "files": [
+    "setup.js",
+    "template",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "bin": "./setup.js",
+  "scripts": {
+    "postpublish": "git push origin && git push origin -f --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cowtech/create-npm-package"
+  },
+  "keywords": [
+    "cowtech",
+    "create"
+  ],
+  "author": "Shogun <shogun@cowtech.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cowtech/create-npm-package/issues"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "~3.0"
+  }
+}
