@@ -1,0 +1,1 @@
+require("@cowtech/create-base")();

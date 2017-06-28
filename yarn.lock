@@ -2,7 +2,20 @@
 # yarn lockfile v1
 
 
-fs-extra@^3.0.1:
+"@cowtech/create-base@~0.0":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@cowtech/create-base/-/create-base-0.0.1.tgz#376ded2ddb083a7c30ac4692781f8860ec0cb934"
+  dependencies:
+    find "~0.2"
+    fs-extra "~3.0"
+
+find@~0.2:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/find/-/find-0.2.7.tgz#7afbd00f8f08c5b622f97cda6f714173d547bb3f"
+  dependencies:
+    traverse-chain "~0.1.0"
+
+fs-extra@~3.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-3.0.1.tgz#3794f378c58b342ea7dbbb23095109c4b3b62291"
   dependencies:
@@ -19,6 +32,10 @@ jsonfile@^3.0.0:
   resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-3.0.0.tgz#92e7c7444e5ffd5fa32e6a9ae8b85034df8347d0"
   optionalDependencies:
     graceful-fs "^4.1.6"
+
+traverse-chain@~0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/traverse-chain/-/traverse-chain-0.1.0.tgz#61dbc2d53b69ff6091a12a168fd7d433107e40f1"
 
 universalify@^0.1.0:
   version "0.1.0"
