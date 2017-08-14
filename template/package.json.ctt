@@ -10,9 +10,9 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "test": "./node_modules/.bin/jest",
-    "test-watch": "./node_modules/.bin/jest --watch",
-    "lint": "./node_modules/.bin/eslint index.js bin lib test",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "lint": "eslint index.js bin lib test",
     "sanity": "npm run lint && npm run coverage",
     "cleanup": "rm -rf coverage",
     "ci": "npm test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
