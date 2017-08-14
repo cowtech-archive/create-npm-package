@@ -1,6 +1,6 @@
 {
   "name": "@cowtech/create-npm-package",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "CowTech Template: NPM package",
   "main": "index.js",
   "files": [
