@@ -1,5 +1,7 @@
 # @cowtech/create-npm-package
 
+## END OF DEVELOPMENT NOTICE - This package has been discontinued
+
 Boilerplate for a NPM package.
 
 ## Copyright
